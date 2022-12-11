@@ -156,3 +156,12 @@ body {
   font-family: 'DM Serif Display';
   letter-spacing: -0.4px;
 }
+
+.social-links {
+  color: var(--text-color);
+  transition: color .3s ease;
+}
+
+.social-links:hover {
+  color: var(--secondary-color);
+}
